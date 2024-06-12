@@ -26,7 +26,7 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "#apps",
+    href: "/#apps",
     label: "Apps",
   },
   {
@@ -47,7 +47,7 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-              JLPT Vocab Study
+              JLPT Vocabulary Study
             </a>
           </NavigationMenuItem>
 
@@ -68,7 +68,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                    JLPT Vocab Study
+                    JLPT Vocabulary Study
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">

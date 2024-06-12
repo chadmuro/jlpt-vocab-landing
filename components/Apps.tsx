@@ -1,22 +1,18 @@
 import Image from "next/image";
-import { Button } from "./ui/button";
-import { buttonVariants } from "./ui/button";
-// import { HeroCards } from "./HeroCards";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 const appsInfo = [
-  { id: "n1", title: "JLPT N1", src: "/n1.png", color: "#4169E1" },
+  { id: "n1", title: "JLPT N1 Vocabulary", src: "/n1.png", color: "#4169E1" },
   {
     id: "n2",
-    title: "JLPT N2",
+    title: "JLPT N2 Vocabulary",
     src: "/n2.png",
     color: "#DC143C",
     reverse: true,
   },
-  { id: "n3", title: "JLPT N3", src: "/n3.png", color: "#228B22" },
+  { id: "n3", title: "JLPT N3 Vocabulary", src: "/n3.png", color: "#228B22" },
   {
     id: "n4",
-    title: "JLPT N4",
+    title: "JLPT N4 Vocabulary",
     src: "/n4.png",
     color: "#DAA520",
     reverse: true,
@@ -38,9 +34,17 @@ export const Apps = () => {
                 app.reverse ? "order-2" : ""
               }`}
             >
-              {app.title}
+              <h2 className="text-4xl font-bold">{app.title}</h2>
+              <button>
+                <Image
+                  src="/app_store_black.svg"
+                  alt="Download on the app store"
+                  width={250}
+                  height={250}
+                />
+              </button>
             </div>
-            <Image src={app.src} alt="N1" width={600} height={600} />
+            <Image src={app.src} alt={app.title} width={600} height={600} />
           </section>
         );
       })}

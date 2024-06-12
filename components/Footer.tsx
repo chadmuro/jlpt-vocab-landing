@@ -10,7 +10,7 @@ export const Footer = () => {
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://github.com/chadmuro"
+            href="https://chadmuro.com/"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
             Chad Murobayashi

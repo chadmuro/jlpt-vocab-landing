@@ -5,9 +5,9 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export const Hero = () => {
   return (
-    <section className="container grid lg:grid-cols-2 place-items-center py-20 md:py-32 gap-10">
-      <div className="text-center lg:text-start space-y-6">
-        <main className="text-5xl md:text-6xl font-bold">
+    <section className="container grid place-items-center py-20 md:py-32 gap-10">
+      <div className="text-center space-y-6">
+        <main className="text-5xl md:text-6xl font-bold max-w-4xl">
           <h1 className="inline">JLPT Vocabulary Study</h1> for{" "}
           <h2 className="inline">
             <span className="inline text-[#4169E1]">N1</span>,{" "}
@@ -18,7 +18,7 @@ export const Hero = () => {
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          All the vocabulary you need to know in one app to ace the exam.
+          All the vocabulary you need to know in one app to ace the JLPT exam.
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
