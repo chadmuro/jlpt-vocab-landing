@@ -7,13 +7,13 @@ export default function PRivacy() {
       <Navbar />
       <main className="flex-1 flex flex-col gap-2 p-4 max-w-2xl mx-auto w-full">
         <h1 className="text-2xl font-bold">
-          Privacy Policy for JLPT Vocabulary Study
+          Privacy Policy for JLPT Vocabulary
         </h1>
         <h2>Last Updated: June 13th, 2024</h2>
         <p>
-          Thank you for using JLPT Vocabulary Study, a Japanese Language
-          Proficiency Test (JLPT) vocabulary study app. This Privacy Policy
-          outlines our minimal data practices.
+          Thank you for using JLPT Vocabulary, a Japanese Language Proficiency
+          Test (JLPT) vocabulary study app. This Privacy Policy outlines our
+          minimal data practices.
         </p>
 
         <p>

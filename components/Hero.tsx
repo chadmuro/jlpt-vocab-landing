@@ -8,7 +8,7 @@ export const Hero = () => {
     <section className="container grid place-items-center py-20 md:py-32 gap-10">
       <div className="text-center space-y-6">
         <main className="text-5xl md:text-6xl font-bold max-w-4xl">
-          <h1 className="inline">JLPT Vocabulary Study</h1> for{" "}
+          <h1 className="inline">JLPT Vocabulary study</h1> for{" "}
           <h2 className="inline">
             <span className="inline text-[#4169E1]">N1</span>,{" "}
             <span className="inline text-[#DC143C]">N2</span>,{" "}
@@ -17,8 +17,8 @@ export const Hero = () => {
           </h2>
         </main>
 
-        <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          All the vocabulary you need to know in one app to ace the JLPT exam.
+        <p className="text-xl text-muted-foreground mx-auto lg:mx-0 w-full">
+          All the vocabulary you need to know to ace the JLPT exam.
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">

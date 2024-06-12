@@ -47,7 +47,7 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-              JLPT Vocabulary Study
+              JLPT Vocabulary
             </a>
           </NavigationMenuItem>
 
@@ -68,7 +68,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                    JLPT Vocabulary Study
+                    JLPT Vocabulary
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">

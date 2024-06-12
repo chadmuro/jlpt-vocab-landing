@@ -31,7 +31,7 @@ export const Apps = () => {
           >
             <div
               className={`text-center lg:text-start space-y-6 ${
-                app.reverse ? "order-2" : ""
+                app.reverse ? "lg:order-2" : ""
               }`}
             >
               <h2 className="text-4xl font-bold">{app.title}</h2>
